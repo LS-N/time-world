@@ -1,1 +1,13 @@
-
+{
+  "name": "time-world",
+  "private": true,
+  "version": "0.0.1",
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
+}
